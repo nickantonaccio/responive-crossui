@@ -38,9 +38,22 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput30")
-                .setLeft("6.857142857142857em")
-                .setTop("16em")
-                .setWidth("18em")
+                .setLeft("8.380952380952381em")
+                .setTop("2.9714285714285715em")
+                .setWidth("20.571428571428573em")
+                .setPosition("relative")
+                .setDisplay("inline-block")
+                .setLabelSize("8em")
+                .setLabelCaption("Number Input")
+                .setType("number")
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput45")
+                .setLeft("8.380952380952381em")
+                .setTop("2.9714285714285715em")
+                .setWidth("29.714285714285715em")
                 .setPosition("relative")
                 .setDisplay("inline-block")
                 .setLabelSize("8em")
