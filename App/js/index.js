@@ -35,6 +35,17 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"module_test5")
             );
             
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput30")
+                .setLeft("6.857142857142857em")
+                .setTop("16em")
+                .setWidth("18em")
+                .setLabelSize("8em")
+                .setLabelCaption("Number Input")
+                .setType("number")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
