@@ -41,6 +41,8 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("6.857142857142857em")
                 .setTop("16em")
                 .setWidth("18em")
+                .setPosition("relative")
+                .setDisplay("inline-block")
                 .setLabelSize("8em")
                 .setLabelCaption("Number Input")
                 .setType("number")
